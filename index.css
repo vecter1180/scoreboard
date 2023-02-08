@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: darkblue
+}
+
+.title {
+    color: white;
+    padding-left: 50px;
+    font-size: 30px
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: digital-Italic;
+    src: url(digital-7.ttf)
+    
+}
+
+#score-home {
+    padding-left: 30px ;
+    background-color: black;
+    border-radius: 2px 2px;
+    color: red;
+    font-size: 60px;
+    font-family: digital-Italic;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 40px
+}
+
+/* #newGame {
+    border-radius: 40%;
+    height:50px;
+    width:60px;
+    margin-right: 50px;
+    
+} */
+
+#score-guest {
+    padding-left: 30px ;
+    background-color: black;
+    border-radius: 2px 2px;
+    color: red;
+    font-size: 60px;
+    font-family: digital-Italic;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 40px
+}
+
+
+#increment-two {
+    border: solid 1px;
+    border-radius: 2px;
+    background-color: darkblue;
+    color: white;
+    margin-left: 5px;
+    font-family: digital-Italic;
+
+} 
+
+#increment-one {
+    border: solid 1px;
+    margin-left: 45px;
+    border-radius: white solid 1px;
+    background-color: darkblue;
+    color: white;
+    font-family: digital-Italic;
+}
+
+#increment-three {
+    border: solid 1px;
+    border-radius: 2px;
+    background-color: darkblue;
+    color: white;
+    margin-left: 5px;
+    font-family: digital-Italic;
+
+} 
+
+
+#increment-guest-two {
+    border: solid 1px;
+    border-radius: 2px;
+    background-color: darkblue;
+    color: white;
+    margin-left: 5px;
+    font-family: digital-Italic;
+
+} 
+
+#increment-guest-one {
+    border: solid 1px;
+    margin-left: 45px;
+    border-radius: white solid 1px;
+    background-color: darkblue;
+    color: white;
+    font-family: digital-Italic;
+}
+
+#increment-guest-three {
+    border: solid 1px;
+    border-radius: 2px;
+    background-color: darkblue;
+    color: white;
+    margin-left: 5px;
+    font-family: digital-Italic;
+
+} 
+
+
+
+
+
+
