@@ -4,29 +4,29 @@
 // highlight the leader
 // Add more counter peroid, fouls, timer 
 // change the design
-let scoreHome = document.getElementById("score-home")
+let scoreHomeTeam = document.getElementById("score-home")
 // let score = 0
 
 
-let scoreGuest = document.getElementById("score-guest")
+let scoreGuestTeam = document.getElementById("score-guest")
 scoreHomeTeam = 0
 scoreGuestTeam = 0
 
 
 function homePlusOne() {
    scoreHomeTeam += 1
-   scoreHome.textContent = scoreHomeTeam
+   scoreHomeTeam.textContent = scoreHomeTeam
 
 }
 
 function homePlusTwo() {
    scoreHomeTeam += 2
-   scoreHome.textContent = scoreHomeTeam
+   scoreHomeTeam.textContent = scoreHomeTeam
 }
 
 function homePlusThree() {
    scoreHomeTeam  += 3
-   scoreHome.textContent = scoreHomeTeam 
+   scoreHomeTeam.textContent = scoreHomeTeam 
    
 }
 
@@ -34,18 +34,18 @@ function homePlusThree() {
 
 function guestPlusOne() {
    scoreGuestTeam += 1
-   scoreGuest.textContent = scoreGuestTeam
+   scoreGuestTeam.textContent = scoreGuestTeam
 
 }
 
 function guestPlusTwo() {
    scoreGuestTeam += 2
-   scoreGuest.textContent = scoreGuestTeam
+   scoreGuestTeam.textContent = scoreGuestTeam
 }
 
 function guestPlusThree() {
    scoreGuestTeam += 3
-   scoreGuest.textContent = scoreGuestTeam 
+   scoreGuestTeam.textContent = scoreGuestTeam 
    
 }
 
